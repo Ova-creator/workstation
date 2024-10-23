@@ -1,14 +1,14 @@
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #0D0D0D; /* Very dark background for strong contrast */
-    color: #E5E5E5; /* Lighter text for readability */
+    background-color: #1A1A1A; /* Darker background for better contrast */
+    color: #D3D3D3; /* Softer light text */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #1A1A1A; /* Darker header color */
+    background-color: #2E2E2E; /* Darker header color */
     color: white;
     padding: 20px;
     text-align: center;
@@ -37,7 +37,7 @@ header nav ul li a:hover {
 
 /* Hero Section */
 #hero {
-    background-color: #141414; /* Very dark background for contrast */
+    background-color: #333333; /* Darker background */
     color: #FFD700; /* Softer gold text for the hero section */
     text-align: center;
     padding: 100px 20px;
@@ -59,8 +59,8 @@ header nav ul li a:hover {
 /* Features, About, Resources, Contact */
 #features, #about, #resources, #contact {
     padding: 50px 20px;
-    background-color: #1A1A1A; /* Darker content background */
-    color: #E5E5E5; /* Softer light text for content */
+    background-color: #1F1F1F; /* Darker background for content sections */
+    color: #D3D3D3; /* Softer light text for content */
 }
 
 .feature-grid {
@@ -69,7 +69,7 @@ header nav ul li a:hover {
 }
 
 .feature-item {
-    background-color: #242424; /* Darker background for feature boxes */
+    background-color: #2C2C2C; /* Darker background for feature boxes */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
@@ -83,7 +83,7 @@ header nav ul li a:hover {
 }
 
 .resource-item {
-    background-color: #242424; /* Darker background for resource items */
+    background-color: #2C2C2C; /* Darker background for resource items */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -109,12 +109,11 @@ input:focus, textarea:focus {
 
 /* Footer */
 footer {
-    background-color: #1A1A1A; /* Darker footer background */
+    background-color: #2E2E2E; /* Darker footer background */
     color: white;
     text-align: center;
     padding: 20px;
-    position: relative; /* Ensure the footer doesn't overlap content */
+    position: relative; /* Changed from fixed to prevent overlap */
     width: 100%;
-    margin-top: 50px; /* Space between footer and content */
-    clear: both; /* Clears floats and ensures it stays at the bottom */
+    margin-top: 50px; /* Added margin to separate footer from content */
 }
