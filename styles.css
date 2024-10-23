@@ -1,15 +1,15 @@
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #1A1A1A; /* Darker background for better contrast */
+    background-color: #2C2C2C; /* Darker background for less brightness */
     color: #D3D3D3; /* Softer light text */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #2E2E2E; /* Darker header color */
-    color: white;
+    background-color: #3F3F3F; /* Darker header color */
+    color: #FFFFFF; /* White text */
     padding: 20px;
     text-align: center;
 }
@@ -37,7 +37,7 @@ header nav ul li a:hover {
 
 /* Hero Section */
 #hero {
-    background-color: #333333; /* Darker background */
+    background-color: #444444; /* Darker background instead of image */
     color: #FFD700; /* Softer gold text for the hero section */
     text-align: center;
     padding: 100px 20px;
@@ -59,7 +59,7 @@ header nav ul li a:hover {
 /* Features, About, Resources, Contact */
 #features, #about, #resources, #contact {
     padding: 50px 20px;
-    background-color: #1F1F1F; /* Darker background for content sections */
+    background-color: #333333; /* Darker background for content sections */
     color: #D3D3D3; /* Softer light text for content */
 }
 
@@ -69,7 +69,7 @@ header nav ul li a:hover {
 }
 
 .feature-item {
-    background-color: #2C2C2C; /* Darker background for feature boxes */
+    background-color: #4C4C4C; /* Slightly darker background for feature boxes */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
@@ -83,7 +83,7 @@ header nav ul li a:hover {
 }
 
 .resource-item {
-    background-color: #2C2C2C; /* Darker background for resource items */
+    background-color: #4C4C4C; /* Darker background for resource items */
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -96,9 +96,9 @@ form {
 }
 
 input, textarea {
-    background-color: #333333; /* Darker input fields */
+    background-color: #555555; /* Darker input fields */
     color: #FFFFFF;
-    border: 1px solid #555555;
+    border: 1px solid #777777;
     padding: 10px;
     border-radius: 5px;
 }
@@ -107,13 +107,12 @@ input:focus, textarea:focus {
     border-color: #FFD700; /* Softer focus color */
 }
 
-/* Footer */
 footer {
-    background-color: #2E2E2E; /* Darker footer background */
-    color: white;
+    background-color: #3F3F3F; /* Darker footer background */
+    color: #FFFFFF;
     text-align: center;
     padding: 20px;
-    position: relative; /* Changed from fixed to prevent overlap */
+    position: fixed;
     width: 100%;
-    margin-top: 50px; /* Added margin to separate footer from content */
+    bottom: 0;
 }
