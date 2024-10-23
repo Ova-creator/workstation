@@ -1,15 +1,15 @@
 /* General Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #2C2C2C; /* Darker background for less brightness */
+    color: #D3D3D3; /* Softer light text */
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #8B4513;
-    color: white;
+    background-color: #3F3F3F; /* Darker header color */
+    color: #FFFFFF; /* White text */
     padding: 20px;
     text-align: center;
 }
@@ -25,27 +25,26 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: #F5A623; /* Warm autumn-like color for links */
     text-decoration: none;
     font-weight: bold;
 }
 
 header nav ul li a:hover {
     text-decoration: underline;
+    color: #FFD700; /* Lighter hover color */
 }
 
 /* Hero Section */
 #hero {
-    background-image: url('hero-bg.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
+    background-color: #444444; /* Darker background instead of image */
+    color: #FFD700; /* Softer gold text for the hero section */
     text-align: center;
     padding: 100px 20px;
 }
 
 .btn {
-    background-color: #FF7F50;
+    background-color: #F5A623; /* Warm button color */
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -54,11 +53,14 @@ header nav ul li a:hover {
 }
 
 .btn:hover {
-    background-color: #FF6347;
+    background-color: #FF8C00; /* Softer hover color */
 }
 
+/* Features, About, Resources, Contact */
 #features, #about, #resources, #contact {
     padding: 50px 20px;
+    background-color: #333333; /* Darker background for content sections */
+    color: #D3D3D3; /* Softer light text for content */
 }
 
 .feature-grid {
@@ -67,10 +69,10 @@ header nav ul li a:hover {
 }
 
 .feature-item {
-    background-color: white;
+    background-color: #4C4C4C; /* Slightly darker background for feature boxes */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow */
     width: 30%;
 }
 
@@ -81,10 +83,10 @@ header nav ul li a:hover {
 }
 
 .resource-item {
-    background-color: white;
+    background-color: #4C4C4C; /* Darker background for resource items */
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 form {
@@ -93,9 +95,21 @@ form {
     gap: 10px;
 }
 
+input, textarea {
+    background-color: #555555; /* Darker input fields */
+    color: #FFFFFF;
+    border: 1px solid #777777;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input:focus, textarea:focus {
+    border-color: #FFD700; /* Softer focus color */
+}
+
 footer {
-    background-color: #8B4513;
-    color: white;
+    background-color: #3F3F3F; /* Darker footer background */
+    color: #FFFFFF;
     text-align: center;
     padding: 20px;
     position: fixed;
